@@ -26,3 +26,4 @@ QStringList whiteList = {
     };
 ```
 
+![Screenshot](screenshots/{E9CC123E-39A1-4DBD-9771-A377E0672FD4}.png)
