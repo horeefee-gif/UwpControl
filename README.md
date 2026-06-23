@@ -1,11 +1,15 @@
 # UwpControl
 
-#Hi, this is my program called UWPControl, written in QML. 
-*This program allows you to remove UWP applications. I want to point out that I'm a beginner, and UWPControl may not be the perfect solution.*
+# Hi, this is my program called UWPControl, written in QML. 
+This program allows you to remove UWP applications. I want to point out that I'm a beginner, and UWPControl may not be the perfect solution.
 
 To remove programs, UWPControl uses the PowerShell command: ``` Get-AppxPackage *ApplicationName* | Remove-AppxPackage ```
 
-*To select UWP applications, UWPControl uses "Whitelists," which means it works on the principle of blocking everything that isn't allowed, which minimizes the chance of damaging your system. Whitelist programs: * 
+To select UWP applications, UWPControl uses "Whitelists," which means it works on the principle of blocking everything that isn't allowed, which minimizes the chance of damaging your system. 
+
+
+
+# Whitelist programs: 
 ```
 QStringList whiteList = {
         "Microsoft.BingNews", "Microsoft.BingWeather", "Microsoft.BingSports",
@@ -25,5 +29,7 @@ QStringList whiteList = {
         "Microsoft.OneConnect", "Microsoft.Wallet", "Microsoft.WindowsCamera"
     };
 ```
+
+
 
 ![Screenshot](screenshots/{E9CC123E-39A1-4DBD-9771-A377E0672FD4}.png)
